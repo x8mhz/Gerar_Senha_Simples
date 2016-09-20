@@ -16,9 +16,10 @@ int main()
 	setlocale(LC_ALL, "Portuguese");
 
 	int tam_Senha;
-	cout << " --------------------------------" << endl;
-	cout << " |      GERADOR DE SENHA 5000   |" << endl;
-	cout << " --------------------------------" << endl << endl;
+	cout << " -------------------------------" << endl;
+	cout << " |    GERADOR DE SENHA 5000    |" << endl;
+	cout << " -------------------------------" << endl << endl;
+	
 	cout << " TAMANHO DA SENHA: ";
 	cin >> tam_Senha;
 
@@ -29,7 +30,7 @@ int main()
 		cout << caracteres_Possiveis[rand() % quant_Caracteres];
 	}
 
-	cout << endl << endl;
+	cout << endl << endl << " -------------------------------" << endl;
 	system("PAUSE");
 	return 0;
 }
