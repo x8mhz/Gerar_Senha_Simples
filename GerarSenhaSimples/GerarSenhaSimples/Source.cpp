@@ -4,10 +4,11 @@
 
 using namespace std;
 
-static const char caracteres_Possiveis[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-										   "abcdefghijklmnopqrstuvwxyz"
-										   "0123456789"
-										   "!@#$%^&*_";
+static const char caracteres_Possiveis[] = 
+	"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	"abcdefghijklmnopqrstuvwxyz"
+	"0123456789"
+	"!@#$%^&*_";
 int quant_Caracteres = sizeof(caracteres_Possiveis) - 1;
 
 int main()
